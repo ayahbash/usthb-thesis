@@ -44,6 +44,10 @@ usthb-thesis/
 
 > tip: the easiest way is to upload the repo directly to [overleaf](https://www.overleaf.com)
 
+## useful resources
+- [latex cheat sheet (pdf)](https://wch.github.io/latexsheet/latexsheet-a4.pdf) - one-page reference for common latex commands  
+- [overleaf](https://www.overleaf.com) – online latex editor and documentation
+
 ## credits
 forked and adapted from [Yacine Bouali](https://github.com/Yacine-Bouali)'s original template - also available on [overleaf](https://www.overleaf.com/latex/templates/usthb-thesis/jwbcnbcgrkdq).
 
