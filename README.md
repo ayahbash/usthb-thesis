@@ -1,23 +1,22 @@
 # usthb-thesis
-### (this is still a w.i.p)
-this repository is a simplified version of the original USTHB thesis template.
-the original template was very helpful, and this version mainly focuses on making the structure easier to understand and modify.
 
-it is intended mostly for students from the **Faculty of Computer Science (USTHB)** writing a **bachelor’s or master’s thesis (PFE)** or an **internship report**, but it can be adapted for other departments as well.
+a simplified latex thesis template adapted for usthb requirements, based on the [original template](https://github.com/Yacine-Bouali/USTHB-Thesis) by [Yacine Bouali](https://github.com/Yacine-Bouali).
+
+intended mostly for students from the **faculty of computer science (usthb)** writing a **bachelor's or master's thesis (pfe)** or an **internship report**, but can be adapted for other departments as well.
 
 ## structure
 
 ```
 usthb-thesis/
 ├── chapters/
+│   ├── abstract.tex
+│   ├── acknowledgements.tex
 │   ├── appendix.tex
 │   ├── chapter1.tex
 │   ├── chapter2.tex
 │   ├── chapter3.tex
 │   ├── conclusion.tex
-│   ├── introduction.tex
-│   ├── remerciements.tex
-│   └── resume.tex
+│   └── introduction.tex
 ├── images/
 ├── LICENSE
 ├── main.tex
@@ -27,20 +26,27 @@ usthb-thesis/
 └── titlepage.tex
 ```
 
-## what changed
+## what changed from the original
 
-* simpler and cleaner file structure
+- simpler and flatter file structure - all chapters in one folder
+- preamble cleaned up and adapted for licence/master level (no phd-specific packages)
+- title page adapted for internship reports and pfe (licence/master)
+- english as default language, easy to switch to french
+- example files updated with more relevant and practical examples
 
 ## usage
 
-edit the relevant files with your information and compile `main.tex` with your latex compiler (overleaf, tex live, etc.).
+1. clone or download the repo
+2. edit `titlepage.tex` with your info
+3. fill in your chapters under `chapters/`
+4. add your references to `references.bib`
+5. compile `main.tex` with your latex compiler (overleaf, texlive, etc.)
+
+> tip: the easiest way is to upload the repo directly to [overleaf](https://www.overleaf.com)
 
 ## credits
+forked and adapted from [Yacine Bouali](https://github.com/Yacine-Bouali)'s original template - also available on [overleaf](https://www.overleaf.com/latex/templates/usthb-thesis/jwbcnbcgrkdq).
 
-this template is based on the original [usthb thesis template](https://github.com/Yacine-Bouali/USTHB-Thesis).
+## license
 
-many thanks to the original repository for making the template available.
-
-## note
-
-this repository is open for use and modification. feel free to adapt it to your needs or improve it.
+MIT - feel free to use, modify, and share!
