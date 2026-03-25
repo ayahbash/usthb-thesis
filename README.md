@@ -1,5 +1,5 @@
 # usthb-thesis
-(this is still a w.i.p)
+### (this is still a w.i.p)
 this repository is a simplified version of the original USTHB thesis template.
 the original template was very helpful, and this version mainly focuses on making the structure easier to understand and modify.
 
