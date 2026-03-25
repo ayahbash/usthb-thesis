@@ -37,10 +37,9 @@ edit the relevant files with your information and compile `main.tex` with your l
 
 ## credits
 
-this template is based on the original **usthb thesis template** available on overleaf:
-https://www.overleaf.com/latex/templates/usthb-thesis/jwbcnbcgrkdq
+this template is based on the original [usthb thesis template](https://github.com/Yacine-Bouali/USTHB-Thesis).
 
-many thanks to the original author for making the template available.
+many thanks to the original repository for making the template available.
 
 ## note
 
