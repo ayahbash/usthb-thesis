@@ -1,0 +1,67 @@
+%% encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% language
+% choose one and comment out the other
+\usepackage[english]{babel}
+% \usepackage[french]{babel}
+
+%% page layout
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{afterpage}
+
+%% header & footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+%% math
+\usepackage{amsmath, amssymb, amsthm}
+
+%% figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage[font=small, labelfont=bf]{caption}
+
+%% tables
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}
+
+%% spacing
+\usepackage{setspace}
+\onehalfspacing
+
+%% bibliography & toc
+\usepackage[nottoc]{tocbibind}
+\usepackage{cite}
+
+%% appendix
+\usepackage{appendix}
+
+%% hyperlinks
+\usepackage{hyperref}
+\hypersetup{ % you can change the colors to your liking!
+    colorlinks=true,
+    linkcolor=purple,
+    urlcolor=purple,
+    citecolor=purple,
+    bookmarksopen=purple,
+    bookmarksnumbered=purple,
+    breaklinks=purple
+}
+
+%% useful extras
+\usepackage{pdfpages}       % insert external PDF pages
+\usepackage{tocvsec2}       % control appendix entries in TOC
+
+%% shortcuts
+\newcommand{\fig}[1]{Figure~\ref{#1}}
+\newcommand{\tab}[1]{Table~\ref{#1}}

@@ -1,21 +1,47 @@
-# USTHB-Thesis
-A thesis template adapted for Algeria university's requirements (specially **USTHB**). 
-The thesis divided into three main parts are:
+# usthb-thesis
+(this is still a w.i.p)
+this repository is a simplified version of the original USTHB thesis template.
+the original template was very helpful, and this version mainly focuses on making the structure easier to understand and modify.
 
-**Front matter**: This part contains:
-Title Page, Dedication, Acknowledgement, Abstract ( French, Arabic, and English), Table of Contents. (Without page numbering)
-List of Figures, Tables, Algorithms and Nomenclature.(Page numbering is Roman)
+it is intended mostly for students from the **Faculty of Computer Science (USTHB)** writing a **bachelor’s or master’s thesis (PFE)** or an **internship report**, but it can be adapted for other departments as well.
 
-**Main matter**: All the chapters of the thesis and the bibliography are included here, the page numbering Arabic was used in this part
+## structure
 
-**Back matter**: The appendices are included here, the page numbering alphabetic was used in this part.
+```
+usthb-thesis/
+├── chapters/
+│   ├── appendix.tex
+│   ├── chapter1.tex
+│   ├── chapter2.tex
+│   ├── chapter3.tex
+│   ├── conclusion.tex
+│   ├── introduction.tex
+│   ├── remerciements.tex
+│   └── resume.tex
+├── images/
+├── LICENSE
+├── main.tex
+├── preamble.tex
+├── README.md
+├── references.bib
+└── titlepage.tex
+```
 
-This template has also the following properties:
+## what changed
 
-- Automatic generation of Nomenclature and its divided into Roman, Greek, Mathematical symbols and Abbreviations.
-- The main Language is French, but it's easy to switch to English
-- Files management is easy and clear
-- The most used packages are included in the Preamble
-- The title page has been updated according to USTHB requirements.
+* simpler and cleaner file structure
 
-The template available in [Overleaf](https://www.overleaf.com/latex/templates/usthb-thesis/jwbcnbcgrkdq)
+## usage
+
+edit the relevant files with your information and compile `main.tex` with your latex compiler (overleaf, tex live, etc.).
+
+## credits
+
+this template is based on the original **usthb thesis template** available on overleaf:
+https://www.overleaf.com/latex/templates/usthb-thesis/jwbcnbcgrkdq
+
+many thanks to the original author for making the template available.
+
+## note
+
+this repository is open for use and modification. feel free to adapt it to your needs or improve it.

@@ -1,0 +1,50 @@
+\chapter{Chapter Title}
+
+\section{Introduction}
+% write your chapter introduction here
+
+\section{Section Title}
+% your content here
+
+% example equation
+\begin{equation}
+    E = mc^2
+    \label{eq:example}
+\end{equation}
+
+% reference it in text like this:
+% as shown in Equation~\ref{eq:example}
+
+\section{Figures and Tables}
+
+% example figure
+% use \fig{} shortcut defined in preamble.tex
+In \fig{fig:example}, ...
+
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.7\linewidth]{images/your-image.png}
+    \caption[Short caption]{Caption for the figure}
+    \label{fig:example}
+\end{figure}
+
+% example table
+% use \tab{} shortcut defined in preamble.tex
+In \tab{tab:example}, ...
+
+\begin{table}[H]
+    \centering
+    \caption{Table caption}
+    \label{tab:example}
+    \begin{tabular}{lll}
+        \toprule
+        Column 1 & Column 2 & Column 3 \\
+        \midrule
+        Value 1  & Value 2  & Value 3  \\
+        Value 4  & Value 5  & Value 6  \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Conclusion}
+% write your chapter conclusion here
